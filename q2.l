@@ -4,9 +4,6 @@ int chars=0;
 %}
 %%
 [^ \t\n]        {chars++;}
-
-
-
 %%
 int main()
 {
